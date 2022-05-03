@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/kiendaotac/tinre-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/tinre-core" vcs="Git" />
   </component>
 </project>
