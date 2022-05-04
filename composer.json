@@ -13,7 +13,8 @@
     "license": "MIT",
     "require": {
         "php": "^7.3",
-        "devpri/tinre-core": "^1.0"
+        "kiendaotac/tinre-core": "@dev",
+        "shweshi/opengraph": "^1.1"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
@@ -49,5 +50,10 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
+    },
+    "repositories": [{
+        "type": "path",
+        "url": "./packages/kiendaotac/tinre-core"
     }
+    ]
 }
